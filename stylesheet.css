@@ -303,6 +303,38 @@ main {
   border-radius: 50%;
 } */
 
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 260px;
+}
+
+.footer-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-nav li {
+  display: inline;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #ff9800; /* Optional hover effect */
+}
+
 @media screen and (max-width: 600px) {
   #img1 {
     display: none;
